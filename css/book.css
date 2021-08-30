@@ -1,0 +1,22 @@
+.form
+{
+    width: 100%;
+    overflow: hidden;
+    padding: 60px 0px;
+}
+
+label
+{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+input
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

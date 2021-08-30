@@ -1,0 +1,17 @@
+.form
+{
+    width: 100%;
+    overflow: hidden;
+    padding: 4% 0px;
+}
+
+.button{
+    background-color: #C8A97E;
+    transition: 1s;
+    padding: 1% 2%;
+
+
+}
+.button:hover{
+box-shadow: 1px 1px 3px 3px black;
+}

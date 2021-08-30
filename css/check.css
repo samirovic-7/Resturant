@@ -1,0 +1,38 @@
+.form
+{
+    width: 100%;
+    overflow: hidden;
+    padding: 60px 0px;
+}
+.forma
+{
+    width: 97%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+label
+{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+input
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.che{
+    float: left;
+    width: 50%;
+}
+.pay{
+    float: left;
+    width: 40%;
+}

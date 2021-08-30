@@ -1,0 +1,24 @@
+
+
+.contact-us .my-form{
+    padding: 20px 30px 20px 10px;
+}
+.contact-us iframe{
+    height: 600px;
+}
+.contact-us .my-form h3{
+    padding: 30px 0;
+}
+.contact-us input{
+    padding: 25px;
+}
+
+.contact-us input[type="submit"]{
+    background-color: var(--main-color);
+    color: #fff;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px 35px;
+    font-size: 18px;
+}

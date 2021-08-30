@@ -1,0 +1,303 @@
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.image{
+    margin-bottom: 1%;
+}
+.img-fluid{
+    width: 100%;
+    height: 640px;
+    filter: brightness(.65);
+
+}
+.caro{
+    margin-bottom: 1%;
+}
+.map{
+    width:100%;
+    margin: auto;
+    height: 450px;
+}
+.text{
+    filter: brightness(.95);
+    width:75%;
+   min-height: 400px;
+    margin:0 auto 5%  auto;
+
+}
+.group{
+    padding: 2% 0;
+}
+
+.groub{
+    padding: 1% 0;
+    width: 90%;
+    margin: auto;
+}
+.sub{
+    float: right;
+    background-color: black;
+    color: rgb(67, 186, 67);
+    border: 2px solid green;
+    font-weight: 800;
+    padding: 1%;
+    
+}
+.ub{
+    background-color: black;
+    color: rgb(67, 186, 67);
+    border: 2px solid green;
+    font-weight: 800;
+    /* padding: 3%; */
+    margin: 15% 0 0 20%;
+    width: 70%;
+
+}.bub{
+    background-color: black;
+    color: rgb(67, 186, 67);
+    border: 2px solid green;
+    font-weight: 1000;
+    float: right;
+    margin: 1% 0 2% 0;
+    width: 13%;
+
+}
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    width: 100%;
+    height: 680px;
+}
+
+.alo {
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    top: 125%;
+    border-radius: 50px;
+}
+
+.design {
+    width: 60%;
+    height: 100%;
+    background-image: url(../img/login.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: -2px 2px 1px 1px rgba(102, 96, 96, .5);
+    border-radius: 20px;
+}
+
+.all-form {
+    width: 40%;
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(118, 113, 145, 0.3);
+    justify-content: center;
+    align-content: center;
+}
+
+h2 {
+    position: absolute;
+    top: 4%;
+}
+
+.form {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border-radius: 40px;
+    box-shadow: 0px 0px 5px 5px;
+    padding: 1%;
+}
+.in{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: space-around;
+}
+.Input {
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0px 0px 4px 1px;
+    margin-left: 2%;
+}
+
+.button {
+    width: 35%;
+    height: 12%;
+    border-radius: 10px;
+    padding: 2%;
+    cursor: pointer;
+    background-color: rgba(117, 110, 110, .5);
+}
+.flu{
+    min-height: 450px;
+}
+.flue{
+    font-family:cursive;
+    min-height: 800px;
+    display: flex;
+    justify-content:space-around;
+}
+.che{
+    float: left;
+    display: flex;
+    align-content: space-between;
+}
+.pay{
+    width: 95%;
+min-height:700px ;
+background-color: aqua;
+}
+.h{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////// footer //////////////////////// */
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 50px 25px #dbd1d1 inset;
+    overflow: hidden;
+}
+.big
+{
+    position: relative;
+    top: 12%;
+    left: 12%;
+    width: 60%;
+    height: 200px;
+    border-bottom: 1px solid ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+/*    align-content: space-around;*/
+/*  align-items: baseline;*/
+}
+.big1{
+    width: 25%;
+    height: 180px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 0px #958d8d inset;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:  space-between;
+    justify-content: center;
+}
+.big2{
+    width: 25%;
+    height: 180px;
+    box-shadow: 0px 0px 15px 0px #958d8d inset;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:  space-between;
+    justify-content: center;
+}
+.big3{
+    width: 25%;
+    height: 180px;
+    box-shadow: 0px 0px 15px 0px #958d8d inset;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:  space-between;
+    justify-content: center;
+}
+.lin{
+    width: 98%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:  space-around;
+    justify-content: space-around;
+}
+.lin a{
+    width: 65%;
+    text-decoration: none;
+    font-size: 120%;
+    color: #575252;
+    text-shadow: 1px 1px 0px rgb(39, 38, 38);
+    font-family:sans-serif;
+    text-decoration: underline;
+}
+.h1{
+    font-size: 140%;
+    text-align: center;
+    font-family:monospace;
+    margin-top: 3%;
+    font-weight: 900;
+}
+.copied{
+    width:25%;
+    height: 8%;
+    position: relative;
+    top: 25%;
+    overflow: hidden;
+    font-size: 120%;
+    font-family:monospace;
+    float: left;
+}
+.comp{
+    font-size: 160%;
+    position: relative;
+    left: 71%;
+    bottom: 65%;
+    font-family:monospace;
+    font-weight:900;
+    text-shadow: 0px 0px 5px #000000 ;
+}
+.fab{
+    position: relative;
+    bottom: 65%;
+    left: 1%;
+    margin-bottom: 2%;
+    font-size: 150%;
+    display: block;
+}

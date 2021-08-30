@@ -1,0 +1,44 @@
+.form
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.button{
+    background-color: #C8A97E;
+    transition: 1s;
+    padding: 1% 2%;
+    float: right;
+    margin: 1%;
+
+}
+
+.button:hover{
+box-shadow: 1px 1px 3px 3px black;
+}
+
+.flu{
+    min-height: 550px;
+    margin: 2% auto;
+    display: flex;
+align-content: space-around;
+    
+}
+h1{
+    padding-top: 1%;
+    margin: 1% auto;
+    animation: form 4s  infinite  ;
+    transform: scale(1);
+}
+@keyframes form{
+    0%{
+        transform: scale(1); 
+
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
